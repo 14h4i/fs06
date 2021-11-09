@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:fs05/state_of_listview_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,10 +12,14 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'FS 06',
+      title: 'Flutter Demo',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
+      initialRoute: StateOfListViewPage.routeName,
+      routes: {
+        StateOfListViewPage.routeName: (context) => const StateOfListViewPage(),
+      },
     );
   }
 }
