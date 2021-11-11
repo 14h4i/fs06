@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:fs05/core/base_provider.dart';
-import 'package:fs05/models/widgets/empty.dart';
-import 'package:fs05/models/widgets/error.dart';
-import 'package:fs05/state_of_listview.dart';
-import 'package:provider/provider.dart';
+import 'package:fs06/models/widgets/empty.dart';
+import 'package:fs06/models/widgets/error.dart';
+import 'package:fs06/state_of_listview.dart';
 
 import 'models/widgets/post_item.dart';
 

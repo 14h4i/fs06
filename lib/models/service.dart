@@ -1,6 +1,6 @@
 import 'dart:convert';
-import 'package:fs05/models/post.dart';
-import 'package:fs05/models/public.dart';
+import 'package:fs06/models/post.dart';
+import 'package:fs06/models/public.dart';
 import 'package:http/http.dart' as http;
 
 class Service {

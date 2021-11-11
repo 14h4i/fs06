@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:fs05/models/service.dart';
+import 'package:fs06/models/service.dart';
 
 import 'models/post.dart';
 
